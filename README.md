@@ -1,2 +1,2 @@
-# wdd-130-Smith
+# Samuel Smith
 Brother Keers' Web Development Class
