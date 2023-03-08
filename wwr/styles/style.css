@@ -89,13 +89,26 @@ footer{
     padding: 25px 50px;
     color: #8AB0AB;
     background-color: #26413C;
-    margin-top: 200px;
+    margin-top: 100px;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
 }
+footer a:link{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+footer a:visited{
+    color: #8AB0AB;
+    text-decoration: none;
+}
 footer:hover{
     color: #ffffff;
+    text-decoration: none;
 }
 footer .social img{
     padding-top: 15px;
@@ -221,4 +234,45 @@ main section img{
     footer {
         margin-top: 25px;
     }
+}
+
+
+/* Styles for FAQ page */
+
+#faq-body{
+    background-color: #FFD5FF;
+}
+#faq-hero-msg{
+    grid-row: 2;
+    grid-column: 2;
+}
+.faq-title{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+.faq-grid{
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.question{
+    cursor: pointer;
+    width: 84%;
+    font-size: 35px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color:#26413C;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.question:hover, .active{
+    background-color: #3b6d66;
+}
+.answer{
+    width: 80.5%;
+    padding: 0 20px;
+    margin: 0px auto;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height .2s ease-out;
 }
