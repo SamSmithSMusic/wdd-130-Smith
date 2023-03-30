@@ -4,6 +4,7 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
+    background-color: #FFEAEC;
 }
 header {
     background-color: #F39A9D;
@@ -32,6 +33,80 @@ nav a:hover{
     background-color: #1B4965;
     color: white;
 }
+footer a{
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: #1B4965;
+    margin: auto 40px;
+}
+footer a:hover{
+    background-color: #1B4965;
+    color: white;
+}
+.social a:hover{
+    background-color: transparent;
+}
 img{
     max-width: 100%;
+}
+#index-hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #1B4965;
+}
+#greeting{
+    color: rgb(255, 255, 255);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    border-radius: 25%;
+    font-size: x-large;
+}
+#info{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-right: 25px;
+    border-radius: 25%;
+}
+#service-title{
+    height: 200px;
+    text-align: center;
+    align-self: center;
+    font-size: 65px;
+    padding-bottom: 50px;
+    color: #1B4965;
+    display: grid;
+}
+#index-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:550px;
+    align-content: center;
+    text-align: center;
+}
+.index-services img{
+    max-width: 80%;
+    align-items: center;
+    border: 10px solid #5FA8D3;
+    border-radius: 10%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #474747;
+}
+.index-services img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.index-services h1, p{
+    padding: 10px;
+}
+footer{
+    background-color: #F39A9D;
 }
