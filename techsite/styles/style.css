@@ -104,9 +104,74 @@ img{
     opacity: .6;
     transform: scale(1.1);
 }
-.index-services h1, p{
+.index-services h1, .index-services p{
     padding: 10px;
 }
 footer{
     background-color: #F39A9D;
+    padding: 30px;
+}
+#about-msg{
+    height: 400px;
+    background-color: #A6A867;
+}
+#about-msg h2{
+    font-size: 160px;
+    margin: 0px 0px;
+    padding: 40px;
+}
+#about-msg p{
+    margin-top: -30px;
+    padding: 40px;
+    font-size: 20px;
+}
+#about-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#about-img{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+    justify-self: center;
+}
+#founder-img{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+    justify-self: center;
+    border-radius: 100%;
+    border: 3px solid white;
+    scale: 70%;
+}
+#mission-head{
+    grid-column: 2;
+    grid-row:1;
+    padding: 10px;
+    margin-top: -70px;
+    font-size: 70px;
+}
+#mission-p{
+    grid-column: 2/3;
+    grid-row:1/2;
+    padding: 30px;
+    margin-bottom: -70px;
+}
+#founder-h{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    margin-top: -70px;
+    font-size: 70px;
+}
+#founder-p{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    margin-bottom: -70px;
 }
