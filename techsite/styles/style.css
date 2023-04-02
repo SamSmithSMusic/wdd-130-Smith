@@ -1,0 +1,239 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFEAEC;
+}
+header {
+    background-color: #F39A9D;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px;
+    margin-top: -72px;
+}
+header a{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+nav{
+    display: flex;
+    color: white;
+    align-content: center;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: #1B4965;
+    margin: auto 40px;
+}
+nav a:hover{
+    background-color: #1B4965;
+    color: white;
+}
+footer a{
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: #1B4965;
+    margin: auto 40px;
+}
+footer a:hover{
+    background-color: #1B4965;
+    color: white;
+}
+.social a:hover{
+    background-color: transparent;
+}
+img{
+    max-width: 100%;
+}
+#index-hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #1B4965;
+}
+#greeting{
+    color: rgb(255, 255, 255);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    border-radius: 25%;
+    font-size: x-large;
+}
+#info{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-right: 25px;
+    border-radius: 25%;
+}
+#service-title{
+    height: 200px;
+    text-align: center;
+    align-self: center;
+    font-size: 65px;
+    padding-bottom: 50px;
+    color: #1B4965;
+    display: grid;
+}
+#index-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:550px;
+    align-content: center;
+    text-align: center;
+}
+.index-services img{
+    max-width: 80%;
+    align-items: center;
+    border: 10px solid #5FA8D3;
+    border-radius: 10%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #474747;
+}
+.index-services img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.index-services h1, .index-services p{
+    padding: 10px;
+}
+footer{
+    background-color: #F39A9D;
+    padding: 30px;
+}
+#about-msg{
+    height: 400px;
+    background-color: #A6A867;
+}
+#about-msg h2{
+    font-size: 160px;
+    margin: 0px 0px;
+    padding: 40px;
+}
+#about-msg p{
+    margin-top: -30px;
+    padding: 40px;
+    font-size: 20px;
+}
+#about-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#about-img{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+    justify-self: center;
+}
+#founder-img{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+    justify-self: center;
+    border-radius: 100%;
+    border: 3px solid white;
+    scale: 70%;
+}
+#mission-head{
+    grid-column: 2;
+    grid-row:1;
+    padding: 10px;
+    margin-top: -70px;
+    font-size: 70px;
+}
+#mission-p{
+    grid-column: 2/3;
+    grid-row:1/2;
+    padding: 30px;
+    margin-bottom: -70px;
+}
+#founder-h{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    margin-top: -70px;
+    font-size: 70px;
+}
+#founder-p{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    margin-bottom: -70px;
+}
+#service-id{
+    height: 200px;
+    background-color: #1B4965;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#service-id a{
+    color: white;
+    text-decoration: none;
+}
+#service-id a:hover{
+    text-decoration: underline;
+}
+#service-id h1{
+    font-size: 70px;
+}
+.services{
+    justify-content: center;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 40% 10% 40%;
+    grid-template-rows: 600px 100px 600px 100px 600px;
+    color: white;
+}
+#VR {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#CSO {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 3/4;
+    grid-row: 1;
+}
+#PCPE {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#ICGT {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#CCM {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 1/4;
+    grid-row: 5;
+    scale: 70%;
+    margin-top: -100px;
+}
