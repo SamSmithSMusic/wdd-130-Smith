@@ -175,3 +175,65 @@ footer{
     padding: 10px;
     margin-bottom: -70px;
 }
+#service-id{
+    height: 200px;
+    background-color: #1B4965;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#service-id a{
+    color: white;
+    text-decoration: none;
+}
+#service-id a:hover{
+    text-decoration: underline;
+}
+#service-id h1{
+    font-size: 70px;
+}
+.services{
+    justify-content: center;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 40% 10% 40%;
+    grid-template-rows: 600px 100px 600px 100px 600px;
+    color: white;
+}
+#VR {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#CSO {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 3/4;
+    grid-row: 1;
+}
+#PCPE {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#ICGT {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#CCM {
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(93, 93, 93);
+    grid-column: 1/4;
+    grid-row: 5;
+    scale: 70%;
+    margin-top: -100px;
+}
